@@ -1,0 +1,24 @@
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.header{
+    font-size: 10rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container > * {
+    width: 31%;
+}
+.badge{
+    color: #26a69a !important;
+}
